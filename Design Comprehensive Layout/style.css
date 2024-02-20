@@ -1,0 +1,152 @@
+html{
+  font-size: 18px;
+}
+
+body{
+  font-family:  "Noto Sans JP";
+  background-color: #ffffff;
+}
+
+/*PCスタイル  */
+@media screen and (min-width:480px) and (max-width:1024px){
+  
+  header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 179px 20px 179px;
+  }
+  h2{
+    text-align: center;
+  }
+
+  #Myprofile{
+    border: solid 1px #000000;
+    padding: auto;
+  }
+
+  .Aboutwork{
+    font-size: 34px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+  }
+  
+#camera{
+  width: 100%;
+}
+
+/* about */
+
+#About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#AboutFace{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+}
+
+/* works */
+#works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sea{
+  width: 179px 134px;
+  margin: 10px;
+  text-align: center;
+}
+.mt{
+  width: 179px 134px;
+  margin: 10px;
+  text-align: center;
+}
+.town{
+  width: 179px 134px;
+  margin: 10px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+}
+
+
+
+/* スマホ */
+@media screen and (max-width: 767px){
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    }
+  
+    #Myprofile{
+      border: solid 1px #000000;
+      padding: auto;
+    }
+  
+    h2{
+      text-align: center;
+      padding-top: 20px;
+      padding-right: 50px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+    }
+    
+  #camera{
+    width: 100%;
+  }
+/* about */
+
+#About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#AboutFace{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+}  
+
+ 
+
+  /* works */
+
+  .sea{
+    width: 179px 134px;
+    margin: 10px;
+    text-align: center;
+  }
+  .mt{
+    width: 179px 134px;
+    margin: 10px;
+    text-align: center;
+  }
+  .town{
+    width: 179px 134px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  footer{
+    text-align: center;
+  }
+  
+
+} 
+
