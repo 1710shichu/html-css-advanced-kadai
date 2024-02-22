@@ -6,36 +6,41 @@ body{
   font-family:  "Noto Sans JP";
   background-color: #ffffff;
 }
+img{
+  width: 100%;
+  height: auto;
+
+}
 
 /*PCスタイル  */
-@media screen and (min-width:768px) and (max-width:1200px){
+@media screen and (min-width:768px) {
   
-  header{
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 20px 179px 20px 179px;
+}
+
+h2{
+  text-align: center;
+}
+
+#Myprofile{
+  border: solid 1px #000000;
+  padding: 10px;
+}
+
+#AboutWork > h2 {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px 179px 20px 179px;
-  }
-
-  h2{
-    text-align: center;
-  }
-
-  #Myprofile{
-    border: solid 1px #000000;
-    padding: 10px;
-  }
-
-  #AboutWork > h2 {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-  }
- nav{
-  display: flex;
- }
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+nav{
+display: flex;
+}
  
 #camera{
   width: 100%;
@@ -61,22 +66,28 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sea{
-  width: 179px 134px;
   margin: 10px;
   text-align: center;
+  width: 179px;
+  height: 134px;
+
 }
 .mt{
-  width: 179px 134px;
   margin: 10px;
   text-align: center;
+  width: 179px;
+  height: 134px;
+
 }
 .town{
-  width: 179px 134px;
   margin: 10px;
   text-align: center;
+  width: 179px;
+  height: 134px;
 }
 
 footer{
@@ -89,7 +100,78 @@ footer{
 
 /* スマホ */
 @media screen and (max-width: 767px){
-
+  
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 179px 20px 179px;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  #Myprofile{
+    border: solid 1px #000000;
+    padding: 10px;
+  }
+  
+  #AboutWork > h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+  }
+  nav{
+  display: flex;
+  }
+   
+  #camera{
+    width: 100%;
+  }
+  
+  /* about */
+  
+  #About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #AboutFace{
+      border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+      width:  180px;       /* ※縦横を同値に */
+      height: 180px;       /* ※縦横を同値に */
+  }
+  
+  
+  /* works */
+  .sea{
+    margin: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  .mt{
+    margin: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  .town{
+    margin: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  
+  footer{
+    text-align: center;
+  }
+  
+/* 
 header{
   display: flex;
   justify-content: space-around;
@@ -97,27 +179,27 @@ header{
   margin: 20px 179px 20px 179px;
   }
 
-  h2{
-    text-align: center;
-  }
+h2{
+  text-align: center;
+}
 
-  #Myprofile{
-    border: solid 1px #000000;
-    padding: 10px;
-  }
+#Myprofile{
+  border: solid 1px #000000;
+  padding: 10px;
+}
 
-  #AboutWork > h2 {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* 
-    padding-left: 50px;
-     */
-  }
-  nav{
+#AboutWork > h2 {
   display: flex;
-  }
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+  padding-left: 50px;
+    
+}
+nav{
+display: flex;
+}
   
 #camera{
   width: 100%;
@@ -133,30 +215,9 @@ header{
   width:  180px;       /* ※縦横を同値に */
   height: 180px;       /* ※縦横を同値に */
 }  
+ */
 
-  /* works */
 
-  .sea{
-    width: 179px 134px;
-    margin: 10px;
-    text-align: center;
-    
-  }
-  .mt{
-    width: 179px 134px;
-    margin: 10px;
-    text-align: center;
-  }
-  .town{
-    width: 179px 134px;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  footer{
-    text-align: center;
-  }
-  
 
 } 
 
