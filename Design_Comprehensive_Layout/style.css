@@ -64,31 +64,33 @@ display: flex;
 /* works */
 #works{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+
 }
 
 .sea{
-  margin: 10px;
+  padding-bottom: 60px;
+  width: 25%;
   text-align: center;
-  width: 179px;
-  height: 134px;
 
 }
 .mt{
-  margin: 10px;
+  padding-bottom: 60px;
+  width: 25%;
+  padding-right: 20px;
+  padding-left: 20px;
   text-align: center;
-  width: 179px;
-  height: 134px;
+}
 
-}
 .town{
-  margin: 10px;
+  padding-bottom: 60px;
+  width: 25%;
   text-align: center;
-  width: 179px;
-  height: 134px;
 }
+
 
 footer{
   text-align: center;
@@ -170,54 +172,4 @@ header{
   footer{
     text-align: center;
   }
-  
-/* 
-header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px 179px 20px 179px;
-  }
-
-h2{
-  text-align: center;
 }
-
-#Myprofile{
-  border: solid 1px #000000;
-  padding: 10px;
-}
-
-#AboutWork > h2 {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
- 
-  padding-left: 50px;
-    
-}
-nav{
-display: flex;
-}
-  
-#camera{
-  width: 100%;
-}
-
-#About{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#AboutFace{
-  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-  width:  180px;       /* ※縦横を同値に */
-  height: 180px;       /* ※縦横を同値に */
-}  
- */
-
-
-
-} 
-
